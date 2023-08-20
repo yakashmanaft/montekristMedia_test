@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Impact';
+    src: url('./fonts/impact.ttf') format('ttf');
+    font-weight: 400;
+  }
+
+.display-win {
+    display: inline-flex;
+}
+
+.display-none {
+    display: none;
+}
+
+.btn {
+    padding: 11px 27px;
+    align-items: flex-start;
+    gap: 10px;
+    border: none;
+    border-radius: 11px;
+    font-family: Impact;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+}
